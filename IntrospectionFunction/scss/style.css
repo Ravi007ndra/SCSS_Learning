@@ -1,0 +1,23 @@
+.text {
+  padding: true;
+}
+
+.text {
+  padding: false;
+}
+
+.text {
+  padding: false;
+}
+
+.text {
+  padding: false;
+}
+
+.text {
+  padding: string;
+}
+
+.text {
+  padding: "Arial";
+}

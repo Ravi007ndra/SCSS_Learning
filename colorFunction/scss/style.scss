@@ -1,0 +1,40 @@
+$bg-color: blue;
+
+.box1,
+.box2 {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.box1 {
+    background-color: $bg-color;
+}
+
+.box2 {
+    background-color: lighten($bg-color, 40)
+}
+
+.box2 {
+    background-color: darken($bg-color, 30)
+}
+
+.box2 {
+    background-color: adjust-hue($bg-color, 300)
+}
+
+.box2 {
+    background-color: saturate($bg-color, 90)
+}
+
+.box2 {
+    background-color: desaturate($bg-color, 90)
+}
+
+.box2 {
+    background-color: mix($bg-color, red, 50)
+}
+
+.box2 {
+    background-color: transparentize($bg-color, 0.9);
+}

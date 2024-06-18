@@ -1,0 +1,15 @@
+@mixin margin($pos, $unit) {
+    margin-#{$pos}: $unit ;
+}
+
+.text {
+    @include margin(top, 100px);
+}
+
+@mixin set-icon($name) {
+    .icon-#{name} {
+        background-color: url(...../#{name}.png);
+    }
+}
+
+@include set-icon(name)

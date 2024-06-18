@@ -1,0 +1,29 @@
+$num : 10px;
+$char : "Arial";
+$list : 10px 20px 30px;
+$map : ("regular": 400, "meidum" : 500);
+
+.text {
+    padding: variable-exists(num);
+}
+
+.text {
+    $num1 : 20px;
+    padding: global-variable-exists(num1);
+}
+
+.text {
+    padding: mixin-exists(num);
+}
+
+.text {
+    padding: function-exists(num);
+}
+
+.text {
+    padding: type-of($char);
+}
+
+.text {
+    padding: inspect($char);
+}

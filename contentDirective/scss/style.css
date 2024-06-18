@@ -1,0 +1,14 @@
+.abc {
+  border-radius: 20px;
+  border-style: dotted;
+}
+
+#menu .block {
+  color: green;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    background-color: green;
+  }
+}

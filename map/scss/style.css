@@ -1,0 +1,15 @@
+.test {
+  font-weight: 500;
+}
+
+.test {
+  font-weight: "regular", "medium", "bold";
+}
+
+.test {
+  font-weight: 400, 500, 700;
+}
+
+.test {
+  font-weight: true;
+}

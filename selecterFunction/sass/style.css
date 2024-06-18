@@ -1,0 +1,39 @@
+ul li {
+  width: 20px;
+}
+
+.abc .xyz h1 {
+  width: 20px;
+}
+
+.abc:hover {
+  width: 20px;
+}
+
+.abc.xyz {
+  width: 20px;
+}
+
+a.xyz {
+  width: 20px;
+}
+
+a.xyz.abc {
+  width: 20px;
+}
+
+a.link {
+  width: 20px;
+}
+
+true {
+  width: 20px;
+}
+
+false {
+  width: 20px;
+}
+
+a, .abc {
+  width: 20px;
+}

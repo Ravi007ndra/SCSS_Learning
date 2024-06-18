@@ -1,0 +1,37 @@
+.btn-1 {
+    background-color: lightsalmon;
+    font-size: 3rem;
+    border: none;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 16px;
+    font-weight: 600;
+
+    &:hover {
+        background-color: blue;
+    }
+}
+
+// %btn-1 {
+//     background-color: lightsalmon;
+//     font-size: 3rem;
+//     border: none;
+//     padding: 8px 16px;
+//     margin: 8px;
+//     border-radius: 16px;
+//     font-weight: 600;
+
+//     &:hover {
+//         background-color: blue;
+//     }
+// }
+
+.btn-2 {
+    background-color: lightblue;
+    @extend .btn-1;
+}
+
+.btn-3 {
+    background-color: lightcoral;
+    @extend .btn-1;
+}

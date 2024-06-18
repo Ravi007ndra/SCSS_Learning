@@ -1,0 +1,34 @@
+@mixin width-height($width: 100px, $height: 100px) {
+    -webkit-width: $width;
+    -moz-width: $width;
+    width: $width;
+
+    -webkit-height: $height;
+    -moz-height: $height;
+    height: $height;
+}
+
+@mixin border-radius($value: 10px) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
+
+
+.box1 {
+    @include width-height(200px, 200px);
+    @include border-radius(50px);
+    background-color: aquamarine;
+}
+
+.box2 {
+    @include width-height(300px, 300px);
+    @include border-radius(30px);
+    background-color: red;
+}
+
+.box3 {
+    @include width-height();
+    @include border-radius();
+    background-color: blue;
+}

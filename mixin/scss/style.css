@@ -1,0 +1,32 @@
+.box1 {
+  -webkit-width: 200px;
+  -moz-width: 200px;
+  width: 200px;
+  -webkit-height: 200px;
+  -moz-height: 200px;
+  height: 200px;
+  border-radius: 50px;
+  background-color: aquamarine;
+}
+
+.box2 {
+  -webkit-width: 300px;
+  -moz-width: 300px;
+  width: 300px;
+  -webkit-height: 300px;
+  -moz-height: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: red;
+}
+
+.box3 {
+  -webkit-width: 100px;
+  -moz-width: 100px;
+  width: 100px;
+  -webkit-height: 100px;
+  -moz-height: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: blue;
+}

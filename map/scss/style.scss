@@ -1,0 +1,30 @@
+$font-weight: (
+    "regular":400,
+    "medium":500,
+    "bold":700
+);
+
+$font-lighter: (
+    "lightest": 100,
+    "light":300
+);
+
+$merge: map-merge($font-weight, $font-lighter );
+
+$remove: map-remove($font-weight, "regular");
+
+.test {
+    font-weight: map-get($font-weight, medium);
+}
+
+.test {
+    font-weight: map-keys($font-weight);
+}
+
+.test {
+    font-weight: map-values($font-weight);
+}
+
+.test {
+    font-weight: map-has-key($font-weight,"bold");
+}

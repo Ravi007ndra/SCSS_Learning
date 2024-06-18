@@ -1,0 +1,34 @@
+$primry_1: #f2f;
+$primry_2: #9b9b9b;
+$primry_3: #e00000;
+
+
+.container {
+    background-color: $primry_2;
+
+    h1 {
+        color: $primry_1;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            margin:8px 16px;
+            list-style:none;
+            font-size: xx-large;
+
+            a {
+                text-decoration: none;
+                color: $primry_3;
+
+
+                &:hover {
+                    background-color: $primry_1;
+                }
+            }
+        }
+
+
+    }
+}

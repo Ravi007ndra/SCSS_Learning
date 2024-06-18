@@ -1,0 +1,21 @@
+.font-normal {
+  font-weight: normal;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-weight: italic;
+}
+
+.normal {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.emphasis {
+  font-weight: italic;
+  font-size: 15px;
+}

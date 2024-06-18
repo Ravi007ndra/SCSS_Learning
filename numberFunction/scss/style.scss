@@ -1,0 +1,20 @@
+.text {
+    width: abs(-100px);
+    width: ceil(13.4);
+    width: ceil(13.7);
+    width: floor(13.7);
+    width: floor(13.4);
+    width: round(13.4);
+    width: round(13.7);
+    width: min(10px, 45px, 12px);
+    width: max(10px, 45px, 12px);
+    width: percentage(100px/20px);
+    width: percentage(100/50);
+    width: comparable(100px, 50em);
+    width: comparable(100mm, 50cm);
+    width: random();
+    width: random(10);
+    width: unit(100px);
+    width: unitless(100px);
+    width: unitless(100);
+}

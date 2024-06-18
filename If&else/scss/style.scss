@@ -1,0 +1,17 @@
+$test: 3;
+
+p {
+    @if $test < 5 {
+        color: yellow;
+    }
+
+    @else if($test==5) {
+        color: blue
+    }
+
+    @else {
+        color: darkcyan;
+    }
+
+    font-size: xx-large;
+}

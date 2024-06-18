@@ -1,0 +1,23 @@
+.container {
+    width: 1300px;
+    margin: auto;
+
+    @media screen and (max-width : 1150px) {
+        width: 900px;
+    }
+
+    @media screen and (max-width : 992px) {
+        width: 700px;
+    }
+}
+
+
+@media print {
+    .item-wrapper {
+        @at-root {
+            .item {
+                color: green;
+            }
+        }
+    }
+}

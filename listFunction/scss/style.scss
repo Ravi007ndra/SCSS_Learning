@@ -1,0 +1,24 @@
+$list : 10px,
+20px,
+30px;
+$list2 : 40px 50px 60px;
+
+.text {
+    padding: length($list);
+    padding: nth($list, 2);
+    padding: nth($list, -3);
+    padding: set-nth($list, 2, 1rem);
+    padding: set-nth(("ram", "rajesh", "rakesh", "jam"), 2, "ravidra");
+    padding: join(("ram", "rajesh", "rakesh", "jam"), $list);
+    padding: join($list2, $list);
+    padding: append($list, 80px, space);
+    padding: append($list, 80px, auto);
+    padding: append($list, 80px, comma);
+    padding: zip($list, $list2);
+    padding: index($list, 20px);
+    padding: list-separator($list);
+    padding: is-bracketed($list);
+
+
+
+}

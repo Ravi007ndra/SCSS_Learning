@@ -1,0 +1,20 @@
+.container {
+  width: 1300px;
+  margin: auto;
+}
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media print {
+  .item {
+    color: green;
+  }
+}

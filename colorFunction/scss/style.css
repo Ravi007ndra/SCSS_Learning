@@ -1,0 +1,38 @@
+.box1,
+.box2 {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+
+.box1 {
+  background-color: blue;
+}
+
+.box2 {
+  background-color: #ccccff;
+}
+
+.box2 {
+  background-color: #000066;
+}
+
+.box2 {
+  background-color: aqua;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box2 {
+  background-color: #73738c;
+}
+
+.box2 {
+  background-color: purple;
+}
+
+.box2 {
+  background-color: rgba(0, 0, 255, 0.1);
+}

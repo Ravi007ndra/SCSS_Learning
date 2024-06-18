@@ -1,0 +1,59 @@
+$selector :selector-nest("ul", "li");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector :selector-nest(".abc", ".xyz", "h1");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector :selector-nest(".abc", "&:hover");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector :selector-append(".abc", ".xyz");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector :selector-append("a", ".xyz");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector :selector-append("a", ".xyz", ".abc");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector :selector-replace("a.abc", ".abc", ".link");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector : is-superselector("a", "a.active");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector : is-superselector("a.active", "a");
+
+#{$selector} {
+    width: 20px;
+}
+
+$selector : simple-selectors("a.abc");
+
+#{$selector} {
+    width: 20px;
+}

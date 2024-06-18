@@ -1,0 +1,12 @@
+@import "variable";
+@import "header";
+@import "content";
+@import "footer";
+@import "media";
+
+.container {
+    max-width: 1000px;
+    max-width: 900px;
+    background-color: $bg-color-1;
+    border: 5px solid;
+}

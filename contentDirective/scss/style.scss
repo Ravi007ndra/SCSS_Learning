@@ -1,0 +1,43 @@
+@mixin bd-radius($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+    @content;
+}
+
+.abc {
+    @include bd-radius(20px) {
+        border-style: dotted;
+    }
+
+    ;
+}
+
+
+
+@mixin test {
+    #menu {
+        @content;
+    }
+}
+
+@include test {
+    .block {
+        color: green;
+    }
+}
+
+
+
+@mixin media($width) {
+    @media screen and (max-width:$width) {
+        @content;
+
+    }
+}
+
+@include media(1300px) {
+    body {
+        background-color: green;
+    }
+}

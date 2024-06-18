@@ -1,0 +1,6 @@
+@for $i from 1 through 5 {
+    .list-#{$i} {
+        width: 100px * $i;
+        background-color: darken(pink, 10%*$i);
+    }
+}

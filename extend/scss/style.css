@@ -1,0 +1,20 @@
+.btn-1, .btn-3, .btn-2 {
+  background-color: lightsalmon;
+  font-size: 3rem;
+  border: none;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 16px;
+  font-weight: 600;
+}
+.btn-1:hover, .btn-3:hover, .btn-2:hover {
+  background-color: blue;
+}
+
+.btn-2 {
+  background-color: lightblue;
+}
+
+.btn-3 {
+  background-color: lightcoral;
+}
